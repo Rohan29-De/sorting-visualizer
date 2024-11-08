@@ -1,0 +1,92 @@
+.container {
+    @apply p-6 bg-white rounded-lg shadow-lg;
+  }
+  
+  .controls {
+    @apply mb-6 space-y-4;
+  }
+  
+  .row {
+    @apply flex items-center gap-4;
+  }
+  
+  .button {
+    @apply bg-blue-500 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .select {
+    @apply w-40;
+  }
+  
+  .startButton {
+    @apply bg-green-500 hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .speedRow {
+    @apply flex items-center gap-4;
+  }
+  
+  .speedLabel {
+    @apply text-sm;
+  }
+  
+  .customInputRow {
+    @apply flex items-center gap-4;
+  }
+  
+  .customInput {
+    @apply flex-1;
+  }
+  
+  .customButton {
+    @apply bg-purple-500 hover:bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .alert {
+    @apply bg-red-500 text-white p-2 rounded;
+  }
+  
+  .visualizer {
+    @apply space-y-2;
+  }
+  
+  .visualizerContainer {
+    @apply h-64 flex items-end justify-around bg-gray-100 rounded-lg p-4;
+  }
+  
+  .bar {
+    @apply rounded-t-lg transition-all duration-200;
+  }
+  
+  .currentBar {
+    @apply bg-red-500;
+  }
+  
+  .compareBar {
+    @apply bg-green-500;
+  }
+  
+  .defaultBar {
+    @apply bg-blue-500;
+  }
+  
+  .valueContainer {
+    @apply flex justify-around px-4;
+  }
+  
+  .value {
+    @apply text-sm font-mono transition-all duration-200;
+  }
+  
+  .currentValue {
+    @apply text-red-500 font-bold;
+  }
+  
+  .compareValue {
+    @apply text-green-500 font-bold;
+  }
+  
+  .defaultValue {
+    @apply text-gray-600;
+  }
+  
